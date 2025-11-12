@@ -2,35 +2,42 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Staff Profile</title>
+  <title>Staff Profiles</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #e9f2ff; /* warna background halaman */
+      background: #e9f2ff;
       margin: 0;
-      padding: 0;
+      padding: 20px;
     }
     .container {
       max-width: 600px;
-      margin: 50px auto;
-      background: #ffffff;
+      margin: 30px auto;
+      background: #fff;
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
       padding: 20px 30px;
-      border-top: 6px solid #0055aa; /* garis atas biru */
+      border-top: 6px solid #0055aa;
     }
     h1 {
       font-size: 24px;
-      margin-bottom: 20px;
-      color: #0055aa; /* judul biru */
+      margin-bottom: 10px;
+      color: #0055aa;
+      text-align: center;
+    }
+    h2 {
+      font-size: 20px;
+      color: #003366;
+      margin-top: 0;
       text-align: center;
     }
     table {
       width: 100%;
       border-collapse: collapse;
+      margin-top: 10px;
     }
     td {
-      padding: 8px 5px;
+      padding: 6px 5px;
       font-size: 16px;
       vertical-align: top;
     }
@@ -43,48 +50,45 @@
       width: 10px;
       text-align: center;
       font-weight: bold;
-      color: #0055aa; /* titik dua biru */
+      color: #0055aa;
     }
-    td.data {
-      color: #222;
+    .divider {
+      height: 2px;
+      background: #ddd;
+      margin: 40px 0;
     }
   </style>
 </head>
 <body>
+
+  <!-- STAFF 1 -->
   <div class="container">
     <h1>VERIFIED STAFF</h1>
+    <h2>Ria Widianingrum</h2>
     <table>
-      <tr>
-        <td class="label">Name</td>
-        <td class="separator">:</td>
-        <td class="data">Ba'ida Romdhonia Putri Mujayanti</td>
-      </tr>
-      <tr>
-        <td class="label">Title</td>
-        <td class="separator">:</td>
-        <td class="data">Marine Staff</td>
-      </tr>
-      <tr>
-        <td class="label">Department</td>
-        <td class="separator">:</td>
-        <td class="data">Marine Department</td>
-      </tr>
-      <tr>
-        <td class="label">Email</td>
-        <td class="separator">:</td>
-        <td class="data">marine-dept@jasindods.co.id</td>
-      </tr>
-      <tr>
-        <td class="label">Phone</td>
-        <td class="separator">:</td>
-        <td class="data">0857-2554-7791</td>
-      </tr>
-      <tr>
-        <td class="label">Joined Date</td>
-        <td class="separator">:</td>
-        <td class="data">19 October 2022</td>
-      </tr>
+      <tr><td class="label">Title</td><td class="separator">:</td><td>Marine Team Leader</td></tr>
+      <tr><td class="label">Department</td><td class="separator">:</td><td>Marine Department</td></tr>
+      <tr><td class="label">Email</td><td class="separator">:</td><td>marine-dept@jasindods.co.id</td></tr>
+      <tr><td class="label">Phone</td><td class="separator">:</td><td>0813-8327-5575</td></tr>
+      <tr><td class="label">Joined Date</td><td class="separator">:</td><td>May 2011</td></tr>
     </table>
   </div>
+
+  <div class="divider"></div>
+
+  <!-- STAFF 2 -->
+  <div class="container">
+    <h1>VERIFIED STAFF</h1>
+    <h2>Ba'ida Romdhonia Putri Mujayanti</h2>
+    <table>
+      <tr><td class="label">Title</td><td class="separator">:</td><td>Marine Staff</td></tr>
+      <tr><td class="label">Department</td><td class="separator">:</td><td>Marine Department</td></tr>
+      <tr><td class="label">Email</td><td class="separator">:</td><td>marine-dept@jasindods.co.id</td></tr>
+      <tr><td class="label">Phone</td><td class="separator">:</td><td>0857-2554-7791</td></tr>
+      <tr><td class="label">Joined Date</td><td class="separator">:</td><td>19 October 2022</td></tr>
+    </table>
+  </div>
+
 </body>
 </html>
+
